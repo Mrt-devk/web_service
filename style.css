@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    width: 170px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 3%;
+    font-size: 25px;
+}
+h2:hover{
+    color: white;
+    transform: translatex(15px);
+    transition: 0.5s;
+}
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left:5px ;
+    margin-right: 5px;
+    padding: 10px 0;
+    align-items: center;
+}
+.Navbar ul li{
+    display: inline-block;
+    margin:20px 0;
+    position: relative;
+}
+.Navbar ul li a{
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    }
+.Navbar ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+header{
+    background-color:rgb(216, 22, 103);
+    height: 100%;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 22, 103);
+    height: 200px;
+
+}
+.footer a{
+     color: blue;
+    
+}
+
+.bouton{
+    width: 30%;
+    height: 1%;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid aqua ;
+    cursor: pointer;
+    position: relative;
+    padding: 15px 0;
+    background-color: rgb(216, 22, 103);
+    
+}
+.bouton a{
+      color: #fff;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: bold;
+}
+.sous-contenu{
+            font-weight: bold;
+            width: 70%;
+            position: absolute;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            top: 30%;
+            margin-left: 18%;
+}
+.sous-contenu h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.sous-contenu p{
+    font-size: 40px;
+    font-weight: bold;
+    animation: fadeInUp 2s ease ;
+}
+.image img{
+    width: 100%;
+    height: 120%;
+}
+.sous-contenu h1{
+    animation:  fadeInUp 3s ease;;
+}
+.bouton{
+    animation: fadeInUp 3s ease 0.4s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
